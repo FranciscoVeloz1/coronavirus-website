@@ -1,0 +1,115 @@
+.centrar_horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.espacio_alrederor, .contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFF9E0;
+}
+
+.navi {
+  background-color: #403E38;
+}
+
+.principal .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.corona {
+  margin: 40px 100px;
+}
+.corona p {
+  font-size: 22px;
+}
+.corona h1 {
+  margin: 40px 0px;
+}
+.corona a {
+  font-size: 22px;
+  margin: 50px 0px;
+}
+
+.contenedor__texto {
+  margin: 50px 100px;
+}
+.contenedor__texto h2 {
+  font-size: 35px;
+}
+.contenedor__texto p {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.contenedor {
+  margin-top: 50px;
+}
+
+.contenedor__img {
+  height: 200px;
+}
+
+.contenedor__tarjeta {
+  transition: 450ms all;
+}
+
+.contenedor__tarjeta:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.pie {
+  display: flex;
+  align-items: center;
+  background-color: #403E38;
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.pie a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .corona {
+    margin: 50px 0px;
+  }
+
+  .contenedor__texto {
+    margin: 40px 10px;
+  }
+
+  .contenedor {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .contenedor__tarjeta {
+    margin-top: 50px;
+  }
+
+  .pie {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
