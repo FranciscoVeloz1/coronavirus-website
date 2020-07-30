@@ -1,10 +1,21 @@
-let titulo = document.getElementById("titulo")
+let titulo = document.getElementById("titulo");
+let muertes = document.getElementById("muertes")
 
 //Prueba con la api de star wars
-const API = "https://swapi.dev/api/people/"
+const API = "https://api.covid19api.com/country/mexico";
 
-fetch(`${API}1/`)
-.then(response => response.json())
-.then(data => {
-    titulo.innerHTML = data.name
-})
+const date = new Date()
+
+console.log(date.getDate())
+
+fetch(`${API}`)
+  .then((response) => {
+    return response.json();
+  })
+
+  .then((data) => {
+    muertes.innerHTML = data[182].Deaths
+    console.log(data[182].Date);
+  })
+
+  .catch((error) => console.log(error));
