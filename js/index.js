@@ -1,5 +1,7 @@
 let titulo = document.getElementById("titulo");
-let muertes = document.getElementById("muertes")
+let info_muertes = document.getElementById("info-muertes")
+let info_casos = document.getElementById("info-casos")
+let info_recuperados = document.getElementById("info-recuperados")
 
 //Prueba con la api de star wars
 const API = "https://api.covid19api.com/country/mexico";
@@ -14,8 +16,10 @@ fetch(`${API}`)
   })
 
   .then((data) => {
-    muertes.innerHTML = data[182].Deaths
-    console.log(data[182].Date);
+    console.log(data)
+    info_muertes.innerHTML = `-${data[188].Deaths}`
+    info_casos.innerHTML = `-${data[188].Confirmed}`
+    info_recuperados.innerHTML = `-${data[188].Recovered}`
   })
 
   .catch((error) => console.log(error));

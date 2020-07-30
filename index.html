@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Coronavirus</title>
 </head>
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#corona">¿Qué es?<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#que-es">¿Qué es?<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#estadistica">Estadísticas</a>
@@ -62,7 +62,41 @@
     <!-- /MAIN -->
 
     <!-- QUE ES -->
-    <section class="corona" id="corona">
+
+    <div class="card queEs" id="que-es">
+        <h5 class="card-header">¿Qué es?</h5>
+        <div class="card-body">
+
+            <h5 class="card-title">¿Qué es un coronavirus?</h5>
+            <p class="card-text">
+                Según la organización mundial de la salud (OMS): Los coronavirus son una extensa
+                familia de virus que pueden
+                causar enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios
+                coronavirus causan
+                infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves como
+                el
+                síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS). El
+                coronavirus
+                que se ha descubierto más recientemente causa la enfermedad por coronavirus COVID-19.
+            </p>
+
+            <h5 class="card-title mt-5">¿Qué es la COVID-19?</h5>
+            <p class="card-text">La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha
+                descubierto más recientemente.
+                Tanto el nuevo virus como la enfermedad eran desconocidos antes de que estallara el brote en Wuhan
+                (China)
+                en diciembre de 2019.
+            </p>
+            <p> *Te invitamos a que leas la información completa en el sitio web de la OMS:</p>
+            <div class="centrar_horizontal"><a
+                    href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+                    class="btn btn-primary">¡Click aqui!</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <section class="corona" id="corona">
 
         <div class="card">
             <div class="card-body">
@@ -87,19 +121,19 @@
                 </p>
                 <p class="centrar_horizontal"> Te invitamos a que leas la información completa en el sitio web de la
                     OMS:</p>
-                <div class="centrar_horizontal"><a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses" class="btn btn-primary">¡Click aqui!</a></div>
+                <div class="centrar_horizontal"><a
+                        href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+                        class="btn btn-primary">¡Click aqui!</a></div>
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- /QUE ES -->
 
     <!-- Estadisticas -->
-    <div class="contenedor__texto" id="estadistica">
-            <h1 class="card-title">Estadísticas</h1>
+    <div class="titulo espacio_alrederor">Estadísticas</div>
 
-            <p>Muertes: <p id="muertes"></p></p>
-    </div>
+    
     <!-- /Estadisticas -->
 
 
