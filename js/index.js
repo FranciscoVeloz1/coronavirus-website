@@ -17,9 +17,9 @@ fetch(`${API}`)
 
   .then((data) => {
     console.log(data)
-    info_muertes.innerHTML = `-${data[188].Deaths}`
-    info_casos.innerHTML = `-${data[188].Confirmed}`
-    info_recuperados.innerHTML = `-${data[188].Recovered}`
+    info_muertes.innerHTML = `-${data[189].Deaths}`
+    info_casos.innerHTML = `-${data[189].Confirmed}`
+    info_recuperados.innerHTML = `-${data[189].Recovered}`
   })
 
   .catch((error) => console.log(error));

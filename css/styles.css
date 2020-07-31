@@ -12,18 +12,17 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #FFF9E0;
+  background-color: #F2F2F2;
 }
 
 .titulo{
   font-size: 40px;
-
 }
 
 /* Header */
 
 .navi {
-  background-color: #403E38;
+  background-color: #262626;
 }
 
 .principal .carousel-inner img {
@@ -38,28 +37,33 @@ body {
   font-size: 20px;
 }
 
+.margen_superior{
+  margin-top: 70px;
+}
+
 /* Estadisticas */
 
 .categoria{
   font-size: 30px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, .30);
-  border-radius: 5px;
 }
 
 .dato{
   font-size: 30px;
 }
 
+.biblio{
+  margin: 50px 100px;
+}
+
 /* /Estadisticas */
 .contenedor__texto {
-  margin: 50px 100px;
+  margin: 70px 100px 50px 100px;
 }
 .contenedor__texto h2 {
   font-size: 35px;
 }
 .contenedor__texto p {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 28px;
 }
 
@@ -83,22 +87,26 @@ body {
 .pie {
   display: flex;
   align-items: center;
-  background-color: #403E38;
+  background-color: #262626;
   height: 100px;
   width: 100%;
   margin-top: 50px;
 }
 
-.pie a {
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  padding-left: 30px;
-  text-decoration: none;
+.pie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2E2E2E;
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.pie a:hover {
-  text-decoration: underline;
+.pie p {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -117,10 +125,8 @@ body {
     margin-top: 50px;
   }
 
-  .pie {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 20px;
+  .pie p {
+    font-size: 15px;
   }
 }
 

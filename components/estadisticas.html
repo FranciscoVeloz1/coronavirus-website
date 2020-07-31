@@ -13,60 +13,43 @@
 
 <body>
 
-    <div class="titulo espacio_alrederor">Estadísticas</div>
+    <div class="titulo margen_superior espacio_alrederor">Estadísticas</div>
 
     <div class="contenedor">
 
-        <div class="table-responsive tabla">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col" class="categoria">Total de casos</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p class="dato" id="info-casos"></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card contenedor__tarjeta" style="width: 22rem;">
+            <div class="card-header">
+                <p class="categoria espacio_alrederor">Total de casos</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="dato espacio_alrederor" id="info-casos"></p>
+                </li>
+            </ul>
         </div>
 
-        <div class="table-responsive">
-            <table class="table table-hover">
-                <thead">
-                    <tr>
-                        <th scope="col" class="categoria">Total de recuperados</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p class="dato" id="info-recuperados"></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card contenedor__tarjeta" style="width: 22rem;">
+            <div class="card-header">
+                <p class="categoria espacio_alrederor">Total de recuperados</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="dato espacio_alrederor" id="info-recuperados"></p>
+                </li>
+            </ul>
         </div>
 
-        <div class="table-responsive tabla">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col" class="categoria">Total de muertes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p class="dato" id="info-muertes"></p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card contenedor__tarjeta" style="width: 22rem;">
+            <div class="card-header">
+                <p class="categoria espacio_alrederor">Total de muertes</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p class="dato espacio_alrederor" id="info-muertes"></p>
+                </li>
+            </ul>
         </div>
+
     </div>
 
 </body>
