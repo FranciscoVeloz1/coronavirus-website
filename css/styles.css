@@ -30,6 +30,19 @@ body {
   object-fit: cover;
 }
 
+.txt-negro{
+  color: black;
+}
+
+.txt-negro p {
+  font-size: 20px;
+}
+
+.txt-negro h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 /* /Header */
 
 .queEs{
