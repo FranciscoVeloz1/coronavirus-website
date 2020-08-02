@@ -3,19 +3,19 @@
   justify-content: center;
 }
 
-.espacio_alrederor, .contenedor {
+.espacio_alrederor,
+.contenedor {
   display: flex;
   justify-content: space-around;
 }
 
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
-.titulo{
+.titulo {
   font-size: 40px;
 }
 
@@ -31,7 +31,7 @@ body {
   filter: grayscale(70%);
 }
 
-.txt-negro{
+.txt-negro {
   color: black;
 }
 
@@ -66,26 +66,26 @@ body {
 
 /* /Header */
 
-.queEs{
+.queEs {
   margin: 50px 30px 30px 30px;
   font-size: 20px;
 }
 
-.margen_superior{
+.margen_superior {
   margin-top: 70px;
 }
 
 /* Estadisticas */
 
-.categoria{
+.categoria {
   font-size: 30px;
 }
 
-.dato{
+.dato {
   font-size: 30px;
 }
 
-.biblio{
+.biblio {
   margin: 50px 100px;
 }
 
@@ -131,7 +131,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #2E2E2E;
+  background-color: #2e2e2e;
   height: 100px;
   width: 100%;
   margin-top: 50px;
@@ -144,7 +144,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
   .contenedor__texto {
     margin: 40px 10px;
   }
@@ -153,6 +152,14 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 0;
+  }
+
+  .card_estadistica {
+    margin-top: 50px;
+  }
+
+  .biblio {
+    margin: 25px 50px;
   }
 
   .contenedor__tarjeta {
