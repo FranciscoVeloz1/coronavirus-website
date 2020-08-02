@@ -1,377 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Coronavirus</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navi navbar-dark">
-      <a class="navbar-brand" href="#">Coronavirus</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#que-es"
-              >¿Qué es?<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#estadisticas">Estadísticas</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Prevención</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="/">Coronavirus</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#que-es">¿Qué es?<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#estadisticas">Estadísticas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#prevencion">Prevención</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- /NAVBAR -->
 
     <!-- MAIN -->
     <main class="principal">
-      <div
-        id="carousel"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-        data-pause="false"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="../img/video 1.jpg"
-              alt="First slide"
-            />
-            <div class="overlay">
-              <div class="container">
-                <div class="row align-items-center">
-                  <div class="col-md-6 offset-md-6 text-center text-md-right">
-                    <h1>Software para Videollamadas</h1>
-                    <p class="d-none d-md-block">
-                      En este articulo te recomendaremos los principales
-                      softwares para videollamadas, desde los servicios gratis
-                      hasta los de paga. Compararemos cada uno viendo la
-                      calidad/precio y te daremos un veredicto final.
-                    </p>
-                    <a href="/" class="btn btn-light">¡Click aqui!</a>
-                  </div>
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../img/video 1.jpg" alt="First slide" />
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                    <h1>Software para Videollamadas</h1>
+                                    <p class="d-none d-md-block">
+                                        En este articulo te recomendaremos los principales
+                                        softwares para videollamadas, desde los servicios gratis
+                                        hasta los de paga. Compararemos cada uno viendo la
+                                        calidad/precio y te daremos un veredicto final.
+                                    </p>
+                                    <a href="/" class="btn btn-light">¡Click aqui!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../img/cubre.jpg"
-              alt="Second slide"
-            />
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../img/cubre.jpg" alt="Second slide" />
 
-            <div class="overlay">
-              <div class="container">
-                <div class="row align-items-center">
-                  <div class="col-md-6 offset-md-6 text-center text-md-right">
-                    <h1>Uso de cubrebocas</h1>
-                    <p class="d-none d-md-block">
-                      Revisa este articulo para ver porque es importante
-                      utilizar el cubrebocas como metodo de prevencion contra el
-                      covid. Tambien te mencionaremos como identificar cuales
-                      cubrebocas si ayudan y cuales no.
-                    </p>
-                    <a href="/" class="btn btn-light">¡Click aqui!</a>
-                  </div>
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                    <h1>Uso de cubrebocas</h1>
+                                    <p class="d-none d-md-block">
+                                        Revisa este articulo para ver porque es importante
+                                        utilizar el cubrebocas como metodo de prevencion contra el
+                                        covid. Tambien te mencionaremos como identificar cuales
+                                        cubrebocas si ayudan y cuales no.
+                                    </p>
+                                    <a href="/" class="btn btn-light">¡Click aqui!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="../img/sintoma.jpg"
-              alt="Third slide"
-            />
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../img/sintoma.jpg" alt="Third slide" />
 
-            <div class="overlay">
-              <div class="container">
-                <div class="row align-items-center">
-                  <div class="col-md-6 offset-md-6 text-center text-md-right">
-                    <h1>Sintomas de covid</h1>
-                    <p class="d-none d-md-block">
-                      En este articulo te mostraremos cuales son los principales
-                      sintomas de COVID-19. Desde los primeros signos de
-                      enfermedad que surgen, hasta los efectos que causa a largo
-                      plazo.
-                    </p>
-                    <a href="/" class="btn btn-light">¡Click aqui!</a>
-                  </div>
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                    <h1>Sintomas de covid</h1>
+                                    <p class="d-none d-md-block">
+                                        En este articulo te mostraremos cuales son los principales
+                                        sintomas de COVID-19. Desde los primeros signos de
+                                        enfermedad que surgen, hasta los efectos que causa a largo
+                                        plazo.
+                                    </p>
+                                    <a href="/" class="btn btn-light">¡Click aqui!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </main>
     <!-- /MAIN -->
 
     <!-- QUE ES -->
 
     <div class="margen_superior">
-      <div class="card queEs" id="que-es">
-        <h5 class="card-header">¿Qué es?</h5>
-        <div class="card-body">
-          <h5 class="card-title">¿Qué es un coronavirus?</h5>
-          <p class="card-text">
-            Según la organización mundial de la salud (OMS): Los coronavirus son
-            una extensa familia de virus que pueden causar enfermedades tanto en
-            animales como en humanos. En los humanos, se sabe que varios
-            coronavirus causan infecciones respiratorias que pueden ir desde el
-            resfriado común hasta enfermedades más graves como el síndrome
-            respiratorio de Oriente Medio (MERS) y el síndrome respiratorio
-            agudo severo (SRAS). El coronavirus que se ha descubierto más
-            recientemente causa la enfermedad por coronavirus COVID-19.
-          </p>
+        <div class="card queEs" id="que-es">
+            <h5 class="card-header">¿Qué es?</h5>
+            <div class="card-body">
+                <h5 class="card-title">¿Qué es un coronavirus?</h5>
+                <p class="card-text">
+                    Según la organización mundial de la salud (OMS): Los coronavirus son
+                    una extensa familia de virus que pueden causar enfermedades tanto en
+                    animales como en humanos. En los humanos, se sabe que varios
+                    coronavirus causan infecciones respiratorias que pueden ir desde el
+                    resfriado común hasta enfermedades más graves como el síndrome
+                    respiratorio de Oriente Medio (MERS) y el síndrome respiratorio
+                    agudo severo (SRAS). El coronavirus que se ha descubierto más
+                    recientemente causa la enfermedad por coronavirus COVID-19.
+                </p>
 
-          <h5 class="card-title mt-5">¿Qué es la COVID-19?</h5>
-          <p class="card-text">
-            La COVID-19 es la enfermedad infecciosa causada por el coronavirus
-            que se ha descubierto más recientemente. Tanto el nuevo virus como
-            la enfermedad eran desconocidos antes de que estallara el brote en
-            Wuhan (China) en diciembre de 2019.
-          </p>
-          <p>
-            *Te invitamos a que leas la información completa en el sitio web de
-            la OMS:
-          </p>
-          <div class="centrar_horizontal">
-            <a
-              href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
-              class="btn btn-primary"
-              >¡Click aqui!</a
-            >
-          </div>
+                <h5 class="card-title mt-5">¿Qué es la COVID-19?</h5>
+                <p class="card-text">
+                    La COVID-19 es la enfermedad infecciosa causada por el coronavirus
+                    que se ha descubierto más recientemente. Tanto el nuevo virus como
+                    la enfermedad eran desconocidos antes de que estallara el brote en
+                    Wuhan (China) en diciembre de 2019.
+                </p>
+                <p>
+                    *Te invitamos a que leas la información completa en el sitio web de
+                    la OMS:
+                </p>
+                <div class="centrar_horizontal">
+                    <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+                        class="btn btn-primary">¡Click aqui!</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Estadisticas -->
 
     <div class="margen_superior">
-      <div id="estadisticas" class="titulo espacio_alrederor">
-        Estadísticas sobre COVID-19 en México
-      </div>
-
-      <div class="contenedor">
-        <div class="card card_estadistica" style="width: 22rem;">
-          <div class="card-header">
-            <p class="categoria espacio_alrederor">Total de casos</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <p class="dato espacio_alrederor" id="info-casos"></p>
-            </li>
-          </ul>
+        <div id="estadisticas" class="titulo espacio_alrederor">
+            Estadísticas sobre COVID-19 en México
         </div>
 
-        <div class="card card_estadistica" style="width: 22rem;">
-          <div class="card-header">
-            <p class="categoria espacio_alrederor">Total de recuperados</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <p class="dato espacio_alrederor" id="info-recuperados"></p>
-            </li>
-          </ul>
+        <div class="contenedor">
+            <div class="card card_estadistica" style="width: 22rem;">
+                <div class="card-header">
+                    <p class="categoria espacio_alrederor">Total de casos</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="dato espacio_alrederor" id="info-casos"></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card card_estadistica" style="width: 22rem;">
+                <div class="card-header">
+                    <p class="categoria espacio_alrederor">Total de recuperados</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="dato espacio_alrederor" id="info-recuperados"></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card card_estadistica" style="width: 22rem;">
+                <div class="card-header">
+                    <p class="categoria espacio_alrederor">Total de muertes</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="dato espacio_alrederor" id="info-muertes"></p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="card card_estadistica" style="width: 22rem;">
-          <div class="card-header">
-            <p class="categoria espacio_alrederor">Total de muertes</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <p class="dato espacio_alrederor" id="info-muertes"></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="biblio">
-        *Información obtenida de la web https://covid19api.com/
-      </p>
+        <p class="biblio">
+            *Información obtenida de la web https://covid19api.com/
+        </p>
     </div>
 
     <!-- /Estadisticas -->
 
     <!-- Articulos -->
-    <section class="contenedor__texto">
-      <h2 class="espacio_alrederor">
-        Artículos de ayuda durante la cuarentena
-      </h2>
-      <p>
-        Este tipo de artículos te ayudaran a llevar la cuarentena de forma más
-        cómoda, desde tips que permitan capacitar, educar y concientizar a la
-        población mediante recomendaciones de la OMS, hasta articulos que
-        atiendan a la salud mental por confinamiento.
-      </p>
+    <section id="prevencion" class="contenedor__texto">
+        <h2 class="espacio_alrederor">
+            Artículos de prevención durante la cuarentena
+        </h2>
+        <p>
+            Este tipo de artículos te ayudaran a llevar la cuarentena de forma más
+            cómoda, desde tips que permitan capacitar, educar y concientizar a la
+            población mediante recomendaciones de la OMS, hasta articulos que
+            atiendan a la salud mental por confinamiento.
+        </p>
     </section>
     <!-- /Articulos -->
 
     <!-- CARDS -->
     <div class="contenedor">
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/lavado.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Lavado de Manos</h5>
-          <p class="card-text">
-            ¡Aprende cual es la técnica más eficiente de lavado de manos, y así
-            evita un posible contagio de coronavirus!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/lavado.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Lavado de Manos</h5>
+                <p class="card-text">
+                    ¡Aprende cual es la técnica más eficiente de lavado de manos, y así
+                    evita un posible contagio de coronavirus!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/remoto.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Trabajo remoto</h5>
-          <p class="card-text">
-            ¡Lee acerca de cuáles son las carreras que permiten trabajo remoto,
-            y toma un curso gratis de cada una!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/remoto.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Trabajo remoto</h5>
+                <p class="card-text">
+                    ¡Lee acerca de cuáles son las carreras que permiten trabajo remoto,
+                    y toma un curso gratis de cada una!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/inm.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">¿Tienes problemas de insomnio?</h5>
-          <p class="card-text">
-            ¡Aprende a como poder resolver este problema para poder dormir bien
-            durante la cuarentena!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/inm.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">¿Tienes problemas de insomnio?</h5>
+                <p class="card-text">
+                    ¡Aprende a como poder resolver este problema para poder dormir bien
+                    durante la cuarentena!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="contenedor">
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/anciano.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Quienes son más vulnerables</h5>
-          <p class="card-text">
-            ¡Lee sobre quienes son más vulnerables al virus y como protegerlos!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/anciano.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Quienes son más vulnerables</h5>
+                <p class="card-text">
+                    ¡Lee sobre quienes son más vulnerables al virus y como protegerlos!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/riesgo.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Trabajos en riegos</h5>
-          <p class="card-text">
-            ¡El coronavirus afecta a un sinfín de carreras, aprende cuales son
-            las que corren mayor riesgo!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/riesgo.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Trabajos en riegos</h5>
+                <p class="card-text">
+                    ¡El coronavirus afecta a un sinfín de carreras, aprende cuales son
+                    las que corren mayor riesgo!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
 
-      <div class="card contenedor__tarjeta" style="width: 18rem;">
-        <img
-          class="contenedor__img"
-          src="./img/fake.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Mitos y realidades</h5>
-          <p class="card-text">
-            ¡No todo lo que lees es real, descubre cuales son los mitos y
-            realidades del coronavirus!
-          </p>
-          <a href="#" class="btn btn-primary">¡Click aqui!</a>
+        <div class="card contenedor__tarjeta" style="width: 18rem;">
+            <img class="contenedor__img" src="./img/fake.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Mitos y realidades</h5>
+                <p class="card-text">
+                    ¡No todo lo que lees es real, descubre cuales son los mitos y
+                    realidades del coronavirus!
+                </p>
+                <a href="#" class="btn btn-primary">¡Click aqui!</a>
+            </div>
         </div>
-      </div>
     </div>
     <!-- /CARDS -->
 
     <!-- FOOTER -->
     <footer class="pie">
-      <p>Coronavirus © 2020 - Derechos Reservados</p>
+        <p>Coronavirus © 2020 - Derechos Reservados</p>
     </footer>
     <!-- /FOOTER -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
     <!-- script -->
     <script src="./js/index.js"></script>
-  </body>
+</body>
+
 </html>
